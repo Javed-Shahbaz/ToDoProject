@@ -10,7 +10,7 @@ module.exports = {
     static: './dist',
   },
   plugins: [
-    new HtmlWebpackPlugin({
+    HtmlWebpackPlugin({
       template: './src/index.html',
     }),
   ],
