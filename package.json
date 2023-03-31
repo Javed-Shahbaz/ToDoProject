@@ -1,12 +1,12 @@
 {
-  "name": "webpack",
+  "name": "ToDoList",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "start": "webpack serve --open"
+    "build": "ToDoList",
+    "start": "ToDoList serve --open"
   },
   "keywords": [],
   "author": "",
