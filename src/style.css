@@ -1,14 +1,14 @@
 *,
 *::before,
-*::after{
+*::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   height: 100vh;
-  background: linear-gradient(
+  background: linear-gradient (
     135deg,
     #8a243c,
     #78458c
