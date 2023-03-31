@@ -1,33 +1,34 @@
-import './style.css';
+document.querySelector('#add').onclick = function () {
+  if(document.querySelector('#task input').value.length == 0){
+    alert("Enter Task");
+  }
+  else{
+      document.querySelector('#list').innerHTML += `
+            <div class="tak">
+            <input type="checkbox" id="chkBox"/>
+                <span id="taskname">
+                    ${document.querySelector('#task input').value}
+                </span>
+                <button class="edit">Edit</button>
+                <button class="delete">
+                    <i class="far fa-trash-alt"></i>
+                </button><hr><br>
+            </div>
+        `;
+        const current_tasks = document.querySelectorAll(".delete");
+        for(let i=0; i<current_tasks.length; i++){
+            current_tasks[i].onclick = function(){
+                this.parentNode.remove();
+            }
+        }
 
-const todos = [
-  {
-    index: 0,
-    completed: false,
-    description: 'Watch Movie',
-  },
-  {
-    index: 1,
-    completed: true,
-    description: 'Read a Book',
-  },
-];
+        let tasks = document.querySelectorAll(".tak");
+        for(let i=0; i<list.length; i++){
+            list[i].onclick = () => {
+                this.list.toggle('completed');
+            }
+        }
 
-const addList = () => {
-  const tcontainer = document.querySelector('#list');
-  todos.forEach((list) => {
-    tcontainer.innerHTML += `
-    <div class="tak">
-      <input type="checkbox" id="chkBox"/>
-      <span id="taskname">
-        ${list.description}
-      </span>
-      <button class="edit">Edit</button>
-      <button class="delete">
-        <i class="far fa-trash-alt"></i>
-      </button><hr><br>
-    </div>
-`;
-  });
-};
-addList();
+        document.querySelector("#task input").value = "";
+    }
+  }
