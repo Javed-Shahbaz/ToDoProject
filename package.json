@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ToDoList",
-    "start": "ToDoList serve --open"
+    "build": "todolist",
+    "start": "todolist serve --open"
   },
   "keywords": [],
   "author": "",
