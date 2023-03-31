@@ -1,3 +1,5 @@
+import './style.css';
+
 document.querySelector('#add').onclick = function () {
   if(document.querySelector('#task input').value.length == 0){
     alert("Enter Task");
