@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 TO DO LIST Page <a name="about-project"></a>
+# 📖 TO DO LIST <a name="about-project"></a>
 
 > This is my First WEBPACK project for Microverse and its the great opertunaity to implement HTML & JavaScript best practices.
 
