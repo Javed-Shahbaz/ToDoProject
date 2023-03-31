@@ -1,15 +1,32 @@
-import _ from 'lodash';
-
 import './style.css';
 
-function component() {
-  const element = document.createElement('div');
+const todos = [
+  {
+    index: 0,
+    completed: false,
+    description: 'Watch Movie',
+  },
+  {
+    index: 1,
+    completed: true,
+    description: 'Read a Book',
+  },
+];
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-
-  return element;
-}
-
-document.body.appendChild(component());
+const addList = () => {
+  const tcontainer = document.querySelector('#list');
+  todos.forEach((list) => {
+    tcontainer.innerHTML += `
+    <div class="tak">
+      <input type="checkbox" id="chkBox"/>
+      <span id="taskname">
+        ${list.description}
+      </span>
+      <button class="delete">
+        <i class="far fa-trash-alt"></i>
+      </button><hr><br>
+    </div>
+`;
+  });
+};
+addList();
