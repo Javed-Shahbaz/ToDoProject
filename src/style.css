@@ -30,7 +30,7 @@ body {
 }
 
 #task input {
-  width: 85%;
+  width: 80%;
   height: 65px;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -67,7 +67,7 @@ body {
 
 #list {
   background-color: #fff;
-  padding: 30px 20px;
+  padding: 15px 12px;
   margin-top: 1px;
   border-radius: 5px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
@@ -87,9 +87,16 @@ hr {
   margin-top: 0.5em;
 }
 
+.edit {
+  font-size: 18px;
+  float: inherit;
+  margin-left: 530px;
+}
+
 .delete {
-  font-size: 20px;
+  font-size: 16px;
   float: right;
+  margin-top: 5px;
 }
 
 #chkBox {

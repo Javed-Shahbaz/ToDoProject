@@ -22,6 +22,7 @@ const addList = () => {
       <span id="taskname">
         ${list.description}
       </span>
+      <button class="edit">Edit</button>
       <button class="delete">
         <i class="far fa-trash-alt"></i>
       </button><hr><br>
