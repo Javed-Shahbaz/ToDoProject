@@ -17,20 +17,6 @@ document.querySelector('#add').onclick = function () {
                 </button><hr><br>
             </div>
         `;
-        const current_tasks = document.querySelectorAll(".delete");
-        for(let i=0; i<current_tasks.length; i++){
-            current_tasks[i].onclick = function(){
-                this.parentNode.remove();
-            }
-        }
-
-        let tasks = document.querySelectorAll(".tak");
-        for(let i=0; i<list.length; i++){
-            list[i].onclick = () => {
-                this.list.toggle('completed');
-            }
-        }
-
         document.querySelector("#task input").value = "";
     }
   }
