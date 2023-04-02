@@ -148,7 +148,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](Javed-Shahbaz/ToDoProject/issues/).
+Feel free to check the [issues page](Javed-Shahbaz/ToDoProject/issues/)
 
 <p allign="right">(<a href="#readme-top">back to top</a>)</p>
 
