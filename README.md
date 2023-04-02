@@ -97,18 +97,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-<<<<<<< HEAD
-> Describe between 1-3 key features of the application.
-=======
- **[Github Flow]**
-- **[Javascript]**
-- **[css]**
-- **[WEBPACK]**
-- **[create funtion to add ToDo]**
-- **[Create function to remove ToDo]**
-- **[Save data on local storage]**
->>>>>>> 733ae98c897585d6542b72e3b29e80be0d164b85
-
 - **[HTML]**
 - **[JavaScript]**
 - **[WebPack]**
@@ -215,19 +203,12 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Javed Shahbazz**
 
 - GitHub: [https://github.com/Javed-Shahbaz)
 - Twitter: [https://twitter.com/javedshahbaz007)
 - LinkedIn: [https://www.linkedin.com/in/javed-shahbaz)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -273,20 +254,6 @@ I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -294,7 +261,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
