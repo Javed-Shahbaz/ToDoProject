@@ -52,6 +52,9 @@
 - **[Javascript]**
 - **[css]**
 - **[WEBPACK]**
+- **[create funtion to add ToDo]**
+- **[Create function to remove ToDo]**
+- **[Save data on local storage]**
 
 <p allign="right">(<a href="#readme-top">back to top</a>)</p>
 
