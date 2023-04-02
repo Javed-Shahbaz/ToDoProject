@@ -8,7 +8,7 @@ export function delItem(listItem, index) {
   List.splice(index, 1);
   listItem.remove();
 
-  //Rearrange indices
+  // Rearrange indices
   for (let i = 0; i < List.length; i += 1) {
     List[i].index = i + 1;
   }
@@ -63,7 +63,7 @@ export function tList() {
     const dotsIcon = document.createElement('div');
     dotsIcon.innerHTML = '<i class="bi bi-three-dots-vertical"></i>';
     dotsDiv.appendChild(dotsIcon);
-    dotsIcon.addEventListener('click', () => delItem(listItem, index));
+    dotsIcon.addEventListener('click', () => delItem(lisItem, index));
     lisItem.appendChild(dotsDiv);
     tListElement.appendChild(lisItem);
 
@@ -99,7 +99,7 @@ export function addTodo() {
 export function delCompleted() {
   const delButton = document.getElementById('clsbtn');
   delButton.addEventListener('click', () => {
-    List=List.filter((task) => !task.completed);
+    List = List.filter((task) => !task.completed);
     tList();
     adtask();
   });
