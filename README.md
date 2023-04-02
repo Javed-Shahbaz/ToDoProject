@@ -97,18 +97,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-<<<<<<< HEAD
-> Describe between 1-3 key features of the application.
-=======
- **[Github Flow]**
-- **[Javascript]**
-- **[css]**
-- **[WEBPACK]**
-- **[create funtion to add ToDo]**
-- **[Create function to remove ToDo]**
-- **[Save data on local storage]**
->>>>>>> 733ae98c897585d6542b72e3b29e80be0d164b85
-
 - **[HTML]**
 - **[JavaScript]**
 - **[WebPack]**
