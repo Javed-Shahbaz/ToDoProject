@@ -102,14 +102,14 @@ i {
   outline: none;
 }
 
-.taskDiv {
+.tDiv {
   padding-right: 15rem;
   width: 50%;
   border: none;
   outline: none;
 }
 
-.taskDiv .checkbox:checked {
+.tDiv .checkbox:checked {
   text-decoration: line-through;
 }
 

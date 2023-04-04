@@ -37,25 +37,25 @@ export function tList() {
 
     Chkbox(task, lisItem);
 
-    const taskDiv = document.createElement('div');
-    taskDiv.classList.add('taskDiv');
-    taskDiv.innerText = task.description;
+    const tkDiv = document.createElement('div');
+    tkDiv.classList.add('tDiv');
+    tkDiv.innerText = task.description;
 
-    const editDescription = () => {
+    const editDesc = () => {
       const inputTask = document.createElement('input');
-      inputTask.classList.add('taskDiv');
+      inputTask.classList.add('tDiv');
       inputTask.value = task.description;
-      taskDiv.replaceWith(inputTask);
+      tkDiv.replaceWith(inputTask);
       inputTask.focus();
       inputTask.addEventListener('blur', () => {
         task.description = inputTask.value;
-        inputTask.replaceWith(taskDiv);
-        taskDiv.innerText = task.description;
+        inputTask.replaceWith(tkDiv);
+        tkDiv.innerText = task.description;
         adtask();
       });
     };
-    taskDiv.addEventListener('dblclick', editDescription);
-    lisItem.appendChild(taskDiv);
+    tkDiv.addEventListener('click', editDesc);
+    lisItem.appendChild(tkDiv);
 
     const dotsDiv = document.createElement('div');
     dotsDiv.classList.add('dotsDiv');
