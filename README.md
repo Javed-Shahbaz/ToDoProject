@@ -209,8 +209,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[Add completed task function]**
 - [ ] **[Add edit function]**
 - [ ] **[Add clearall function]**
@@ -221,18 +219,10 @@ Example:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+https://github.com/Javed-Shahbaz/ToDoProject/issues
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
-
-If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
