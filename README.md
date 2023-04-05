@@ -104,7 +104,7 @@ REQUIRED SECTIONS:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- https://javed-shahbaz.github.io/ToDoProject
+ [https://javed-shahbaz.github.io/ToDoProject](https://javed-shahbaz.github.io/ToDoProject/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
